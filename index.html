@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <h1>Ajedrez</h1>
+    <div id="menu-principal">
+        <button id="jugar-humano">Jugar contra Humano</button>
+        <button id="jugar-bot">Jugar contra Bot</button>
+        <button id="salir">Salir</button>
+    </div>
+    <div id="juego" style="display: none;">
+        <div id="piezas-capturadas-blancas" class="piezas-capturadas"></div>
+        <div id="tablero"></div>
+        <div id="piezas-capturadas-negras" class="piezas-capturadas"></div>
+    </div>
+    <div id="mensaje"></div>
+    <div id="asistente"></div>
+    <button id="volver-menu" style="display: none;">Volver al Menú</button>
+    <script src="script.js"></script>
+</body>
+</html>
